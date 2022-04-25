@@ -1,0 +1,38 @@
+@font-face {
+    font-family: SHOWG;
+    src: url(../fonts/SHOWG.TTF);
+}
+body {
+    text-align: center;
+}
+.quadrado {
+    text-align: center;
+    width: 60px;
+    background-color: #bbd4d4;
+    display: inline-block;
+    padding: 35px;
+    font-family: SHOWG;
+    font-size: 70px;
+    margin: 5px;
+    cursor: pointer;
+    color: #bbd4d4;
+}
+.jogador, .vencedor {
+    font-size: 25px;
+    margin-top: 10px;
+} 
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background: rgb(226, 243, 243);
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
